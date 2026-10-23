@@ -22,6 +22,7 @@ export default function Home() {
     <div className="relative min-h-screen w-full overflow-hidden bg-[#030712] text-slate-100 selection:bg-cyan-300 selection:text-slate-950">
       {/* Background Lightning */}
       <div className="absolute inset-0 z-0 pointer-events-none">
+      {/* @ts-ignore */}
         <Lightning 
           color="#67e8f9"
           speed={0.67}
