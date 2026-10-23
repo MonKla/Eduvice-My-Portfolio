@@ -26,6 +26,8 @@ export default function Home() {
           color="#67e8f9"
           speed={0.67}
           intensity={1}
+          style={{}} 
+          dpr={1}
         />
       </div>
 
